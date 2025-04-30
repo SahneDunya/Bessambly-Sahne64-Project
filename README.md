@@ -2,7 +2,6 @@
 Bessambly is the lowest level language developed by Sahne Dünya where every code is not hardware specific. The reason for the development of Bessambly programming language is to provide cross-platform support in terms of CPU instruction set for low-level operations. This programming language basically supports imperative programming. It uses Jump and Flag as control structures. In this language, memories are managed manually but as follows: Static Memory Allocation, Stack Management, Heap (with operating system calls) Management. This language lacks import and include etc. features instead Procedures (Subprograms), Combining Separate Files, Macros and External Symbols (EXTERN/GLOBAL) are used for modularity and code reuse. Every code in this programming language is not hardware specific but every code in this language is operating system specific, each operating system has its own Bessambly. Although Bessambly programming language does not have hardware specific codes, it contains operating system specific codes. This is because in such low-level languages, system calls are required for basic features such as Heap Management, Input/Output (I/O) Operations, etc.
 
 # Target Hello World code: 
-...
 ; Sahne64 Bessambly "Merhaba Dünya" Programı
 ; Donanımdan bağımsız ama Sahne64 OS'ye özel
 
@@ -74,4 +73,3 @@ _error_exit:
 ; Ancak bir hata durumunda sonsuz döngü gibi bir fallback eklenebilir.
 _halt:
     JMP _halt ; İşlemciyi durdurmak için sonsuz döngü (olası bir fallback)
-...
