@@ -9,6 +9,8 @@ Bessambly is the lowest level language developed by Sahne Dünya where every cod
 * Underlying programming language: none but similar to Assembly
 * Modern language features: no
 * Standard Libray: no
+* Target source file: 29 MB
+Main programming language: Rust
 
 # Target Hello World code 
 ```
